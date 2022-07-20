@@ -59,7 +59,7 @@ if (window.matchMedia("(max-width: 599px)").matches) {
             let cloneSlide_fourth = slideImg[3].cloneNode(true);
             let cloneSlide_fifth = slideImg[4].cloneNode(true);
             let cloneSlide_sixth = slideImg[5].cloneNode(true);
-            let cloneSlide_lasr = slideImg[6].cloneNode(true);
+            // let cloneSlide_lasr = slideImg[6].cloneNode(true);
             let cloneSlide_last = slides.lastElementChild.cloneNode(true);
             slides.append(cloneSlide_first);
             slides.append(cloneSlide_second);
